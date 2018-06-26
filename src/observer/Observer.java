@@ -1,4 +1,4 @@
-package com.sophie.i2pobserver;
+package observer;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -7,10 +7,10 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 
-import com.sophie.i2pobserver.data.ObserverProperties;
-import com.sophie.i2pobserver.data.RouterInfoStatistic;
-import com.sophie.i2pobserver.html.HtmlOutputCreator;
-import com.sophie.i2pobserver.netdb.NetDBImporter;
+import observer.data.ObserverProperties;
+import observer.data.RouterInfoStatistic;
+import observer.html.HtmlOutputCreator;
+import observer.netdb.NetDBImporter;
 
 /**
  * Main class of I2P-Observer.
