@@ -1,4 +1,4 @@
-package com.sophie.i2pobserver.html;
+package observer.html;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -6,7 +6,7 @@ import java.io.OutputStream;
 import java.net.URL;
 import java.net.URLConnection;
 
-import com.sophie.i2pobserver.data.ObserverProperties;
+import observer.data.ObserverProperties;
 
 public class HtmlUploader {
 

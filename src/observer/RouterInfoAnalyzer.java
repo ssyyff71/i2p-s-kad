@@ -1,4 +1,4 @@
-package com.sophie.i2pobserver;
+package observer;
 
 import java.io.File;
 import java.io.IOException;
@@ -13,10 +13,10 @@ import java.util.TreeMap;
 import com.maxmind.geoip2.DatabaseReader;
 import com.maxmind.geoip2.exception.AddressNotFoundException;
 
-import com.sophie.i2pobserver.data.ExtractedRouterInformation;
-import com.sophie.i2pobserver.data.NetDbEntries;
-import com.sophie.i2pobserver.data.ObserverProperties;
-import com.sophie.i2pobserver.data.RouterInfoStatistic;
+import observer.data.ExtractedRouterInformation;
+import observer.data.NetDbEntries;
+import observer.data.ObserverProperties;
+import observer.data.RouterInfoStatistic;
 import net.i2p.data.router.RouterAddress;
 import net.i2p.data.router.RouterInfo;
 

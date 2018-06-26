@@ -1,4 +1,4 @@
-package com.sophie.i2pobserver.netdb;
+package observer.netdb;
 
 import java.io.BufferedInputStream;
 import java.io.File;
@@ -10,7 +10,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-import com.sophie.i2pobserver.data.NetDbEntries;
+import observer.data.NetDbEntries;
 import net.i2p.data.DataFormatException;
 import net.i2p.data.router.RouterInfo;
 

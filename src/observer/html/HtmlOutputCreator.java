@@ -1,4 +1,4 @@
-package com.sophie.i2pobserver.html;
+package observer.html;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -12,9 +12,9 @@ import java.util.Map.Entry;
 import java.util.Set;
 import java.util.TreeSet;
 
-import com.sophie.i2pobserver.data.ObserverProperties;
-import com.sophie.i2pobserver.data.RouterInfoDataset;
-import com.sophie.i2pobserver.data.RouterInfoStatistic;
+import observer.data.ObserverProperties;
+import observer.data.RouterInfoDataset;
+import observer.data.RouterInfoStatistic;
 
 /**
  * Create a HTML page that lists the collected data

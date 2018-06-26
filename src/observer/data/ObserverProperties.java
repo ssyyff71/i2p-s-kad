@@ -1,4 +1,4 @@
-package com.sophie.i2pobserver.data;
+package observer.data;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;

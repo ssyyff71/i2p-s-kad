@@ -1,4 +1,4 @@
-package com.sophie.i2pobserver.test;
+package observer.test;
 
 import static org.junit.Assert.assertTrue;
 
@@ -12,11 +12,11 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.sophie.i2pobserver.RouterInfoAnalyzer;
-import com.sophie.i2pobserver.data.NetDbEntries;
-import com.sophie.i2pobserver.data.ObserverProperties;
-import com.sophie.i2pobserver.data.RouterInfoDataset;
-import com.sophie.i2pobserver.data.RouterInfoStatistic;
+import observer.RouterInfoAnalyzer;
+import observer.data.NetDbEntries;
+import observer.data.ObserverProperties;
+import observer.data.RouterInfoDataset;
+import observer.data.RouterInfoStatistic;
 import net.i2p.data.Hash;
 import net.i2p.data.router.RouterAddress;
 import net.i2p.util.OrderedProperties;
