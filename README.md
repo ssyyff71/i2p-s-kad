@@ -26,3 +26,5 @@ Raphaël Javascript Library to display the charts:
 Distributed under MIT License. More information at https://dmitrybaranovskiy.github.io/raphael/.
 		
 # i2p-s-kad
+
+Modify the kad algorithm and import the routerinfo file locally so as to establish kad network.
